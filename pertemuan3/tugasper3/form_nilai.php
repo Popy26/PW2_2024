@@ -27,7 +27,7 @@ include_once 'header.php';
             <div class="form-group row mb-3">
                 <label for="nilai_uts" class="col-4 col-form-label">Nilai UTS</label>
                 <div class="col-8">
-                    <input id="nilai_uts" type="number" min="0" max="100" class="form-control" name="uts" placeholder="Masukan angka..." required>
+                    <input name="uts" id="nilai_uts" type="number" min="0" max="100" class="form-control"  placeholder="Masukan angka..." required>
                 </div>
             </div>
             <div class="form-group row mb-3">
